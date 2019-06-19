@@ -3,6 +3,6 @@ Open Data Science workshop - collaboration example to set up a website, with a p
 
 ## This is where Nicki's code start
 
-x=1
+x=12  #take that!
 y=2
 
