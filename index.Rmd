@@ -29,3 +29,20 @@ ggplot(data=pressure, aes(x=temperature, y=pressure))+
   geom_point(aes(color=pressure))
 ```
 
+
+Is CEED repopulating the world....
+
+```{r}
+library(ggplot2)
+
+
+babies <- data.frame(name = c("Jessie", "Nicki", "Viv", "Ayesha", "Hugh"),
+                  count = c(1, 1, 1, 0, 2),
+                  age = c(1, 1, 1, 0, 25))
+
+
+ggplot(data=babies, aes(x=name, y=count, size = age, color=name)) +
+  geom_point()
+
+
+```
