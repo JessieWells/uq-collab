@@ -1,0 +1,17 @@
+---
+title: "collaboration-website-example"
+author: "Jessie Wells"
+date: "19/06/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+http://ohi-science.org/data-science-training/collaborating.html
+New repository created by partner 1, 
+Create branch gh-pages (automatically a website), make it the default branch, then delete the 'master' branch so there is only one and it is the website one.
+Clone to his/her desktop using RStudio.
+On Github, set up a new collaborator (settings - collaborators)
+
